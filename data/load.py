@@ -12,8 +12,7 @@ import pandas as pd
 
 names = ("ID", "Sex", "DoB", "Event", "Distance", "Time", "Date")
 
-data = pd.read_csv("/Users/finbrown1/Documents/STAT3901/thepowerof10/events_best3.csv", 
-                   header=None, names=names)
+data = pd.read_csv("events_best3.csv", header=None, names=names)
 
 
 
